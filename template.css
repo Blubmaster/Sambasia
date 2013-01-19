@@ -1,0 +1,403 @@
+@charset "utf-8";
+/* CSS Document */
+/* -------------------- Allgemein -----------------------*/
+*{  
+	margin:0;
+	padding:0;
+	}
+/* -------------------- schriften -----------------------*/
+
+	
+p{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:1em;
+	line-height:1.5em;
+	}
+	
+i{	
+	font-family: 'Ubuntu', sans-serif;
+	font-style:normal;
+	font-size:1em;
+	line-height:1.5em;
+	color:rgba(142, 63, 45, 0.8);
+	}
+
+h1{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 2em;
+	color:rgba(142, 63, 45, 0.8);
+	
+	}
+
+h3{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:1.2em;
+	color:rgba(142, 63, 45, 0.8);
+	line-height:1.7em;
+	}
+
+h4{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:1em;
+	color:rgba(142, 63, 45, 0.8);
+	line-height:2em;
+	}
+	
+h5{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:1em;
+	line-height:1.5em;
+	text-align:right;}
+
+/* -------------------- Inhalt -----------------------*/
+#wrapper{
+	width:960px; 
+	margin:0px auto;}
+
+	
+body{
+	background-image:url(../img/headerbg.png);
+	background-repeat:repeat-x;
+	background-color:#dad1c4;
+	}
+#logomenu{
+	margin:0px 0 0px; 0;
+	}
+	
+#logo{
+	margin:10px 0 0 0;
+	float:left;
+	}
+	
+	
+/* -------------------- Navi -----------------------*/	
+
+/* -------------------- DD -----------------------*/
+
+#menu {
+	margin-top:115px;
+	float:right;
+	z-index:500;
+	}
+
+#menu ul {
+	list-style-type:none;
+	list-style-image:none;
+	padding:0px;
+	}
+
+#menu ul li {
+	}
+
+#menu strong{
+	font-family: 'Bubblegum Sans', cursive;
+	font-size:2em;
+	text-decoration:none;
+	color:#ffffff;
+	text-shadow:#000 5px 5px 10px;
+	line-height:1em;
+	}
+#menu li.topmenu {
+	width:160px;
+	float:left;
+	line-height:1em;
+	display:block;
+	text-align:center;
+	}
+
+.topmenu a {
+	font-family: 'Bubblegum Sans', cursive;
+	font-size:2em;
+	line-height:1em;
+	margin-bottom:8px;
+	}
+
+.topmenu ul{
+	width:174px;
+	height:123;
+	margin:0 0 0 0;
+	padding:6px 12px;
+	z-index:490;
+	position:absolute;
+	background-image:url(../img/ddbg.png);
+	display:none;
+	background-repeat:no-repeat;
+	}
+
+.topmenu a{
+	color:#95c152;
+	text-decoration:none; 
+	}
+
+.submenu a{
+	margin-top:19px;
+	font-size:1.4em;
+	line-height:1.5em;
+	position:relative;
+ 	clear:both;
+	}
+
+#menu a:hover{
+	color:#fff;
+	}
+
+.topmenu:hover ul {
+	display:block;
+	}
+	
+#menu ul li ul strong{
+	font-size:1.4em;
+	line-height:1.5em;
+	color:#fff;
+	text-shadow:#000 5px 5px 10px;
+	}
+	
+/* -------------------- Slider -----------------------*/
+
+
+#borderslider{
+	clear:both;
+	position:relativ;
+	z-index:1;
+	}
+
+#sliderimg{
+	position:absolute;
+	margin-left:8px;
+	margin-top:-510px;
+	}
+
+#teaser{
+	position:absolute;
+	margin-left:617px;
+	margin-top:-399px;
+	}
+	
+div #teasertext h1{
+	color:#FFFFFF;
+	margin:-270px 0 0 0;
+	padding:20px;
+	}
+	
+div #teasertext p{
+	color:#FFFFFF;
+	padding:20px;
+	margin:-30px 0 0 0;
+	}
+	
+div #teaserbutton{
+	position:relative;
+	margin:0 0 0 20px;
+	}
+	
+div #teaserbutton a {
+	background-image:url(../img/sliderbutton.png);
+	margin:-5px 0 0 0;
+	position:absolute;
+	color:#ffffff;
+	text-decoration:none;
+	font-family: 'Ubuntu', sans-serif;
+	display:inline-block;
+	padding:5px 13px 5px 13px;
+	}
+	
+#teaserbutton a p {
+	margin:-25px 0 0 21px;
+	}
+	
+#teaserbutton a:hover{
+	background-image:url(../img/sliderbuttonhover.png);
+	}
+
+/* -------------------- Content -----------------------*/
+section{
+	position:relative;
+	background: rgba(255, 255, 255, 0.4);
+	width:600px;
+	float:left;
+	margin:-56px 0 25px 25px;
+	}
+	
+section #inhalt img{
+	margin-right:8px;
+	}
+
+#inhalt{
+	padding:36px 25px 25px 25px;
+	margin:0 0 25px 0;
+	}
+	
+#inhalt h1{
+	line-height:2em;
+	}
+
+/* --------------------- aside -----------------------*/
+
+#offen{
+	width:265px;
+	background-color: rgba(142, 63, 45, 0.8);
+	margin:25px 0 0 625px;
+	padding:20px;
+	}
+
+aside #offen h1{
+	color:#FFFFFF;
+	}
+
+aside #offen h3{
+	color:#FFFFFF;
+	}
+
+aside #offen p{
+	color:#FFFFFF;
+	}
+
+#sidebarpet{
+	margin:20px 0 25px 0;
+	}
+
+/* --------------------- aside -----------------------*/
+
+#footer{
+	clear:both;
+	height:auto;
+	background-image:url(../img/footerbg.png);
+	background-repeat:repeat-x;	
+	}
+	
+#footernav{
+	margin:auto;
+	width:960px;
+	}
+		
+#footer ul{
+	height:157px;
+	list-style:none;
+	margin-left:610px;
+	}
+	
+#footer ul li{
+	margin-top:40px;
+	margin-left:0px;
+	float:left;
+	width:100px;
+	}
+
+#footer ul li a{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:1em;
+	line-height:1.5em;
+	color:#FFFFFF;
+	text-decoration:none;
+	margin:0 0 0 32px;
+	}
+	
+/* --------------------- Preise -----------------------*/
+
+table td{
+	width:550px;
+	border-bottom:1px solid rgba(170, 85, 68, 0.8);
+	}
+	
+td {
+	
+	text-align:left;
+	font-family: 'Ubuntu', sans-serif;
+	font-size:1em;
+	line-height:1.5em;}
+td p{
+	text-align:right;}
+	
+	
+/* --------------------- Touren -----------------------*/
+
+#touren{
+	width:265px;
+	background-color: rgba(142, 63, 45, 0.8);
+	margin:25px 0 0 625px;
+	padding:20px;
+	}
+	
+#touren ul{
+	list-style-image:none;
+	list-style:none;
+	}
+	
+#touren ul li{
+	height:1.7em;
+	font-family: 'Ubuntu', sans-serif;
+	font-size:1.2em;
+	line-height:1.7em;
+	
+	}
+	
+#touren ul li a{
+	text-decoration:none;
+	color:#FFFFFF;
+	}
+	
+
+	
+#maus a:hover {
+	border:1px solid #f00;
+	z-index:700;
+	position:absolute;
+	color: rgba(208, 144, 80, 1);
+	}
+	
+#maus ul{
+	display:none;
+	background-image:url(../img/maustour.png);
+	}
+
+#maustour a{
+	margin-top:19px;
+	font-size:1.4em;
+	line-height:1.5em;
+	position:relative;
+ 	clear:both;
+	}
+	
+#maus:hover ul {
+	display:block;
+	}
+	
+div #tourkarte a{
+	z-index:800;
+	background-image:url(../img/kreis_inaktiv.png);
+	background-repeat:no-repeat;
+	font-family: 'Bubblegum Sans', cursive;
+	text-decoration:none;
+	text-align:center;
+	padding-top:5px;
+	color:#fff;
+	}
+	
+
+div #tourkarte a:hover{
+	z-index:800;
+	background-image:url(../img/kreis_aktiv.png);
+	}
+	
+a.popup {
+  text-decoration:none;
+  position:relative;
+  display:block;
+}
+a.popup:hover {
+  border:none;
+}
+a.popup img {
+	z-index:500;
+	position:absolute;
+  border:none;
+}
+a.popup span {
+  visibility:hidden;
+  position:absolute;
+  top:96px;
+  left:-586px;
+}
+a.popup:hover span {
+  visibility:visible;
+}
